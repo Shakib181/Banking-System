@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascpript Banking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box" id="loginPage">
+        <h2 class="bd-title">BD Bank</h2>
+        <hr>
+        <br><br>
+        <input class="input-field" id="AccountNo" type="text" placeholder="Enter Your Account Number"><br><br>
+        <input class="input-field" id="Password" type="password" placeholder="Enter Your Password">
+        <br><br><br>
+        <div class="btn">
+            <button class="login" id="login_btn">Login</button>
+        </div>
+    </div>
+
+
+    <div class="Balance-section" id="Balance-page">
+        <div class="total_balance">
+            <h1 class="h1-text">Your Total Balance: <span id="total-Balance">2000</span> </h1>
+        </div>
+
+        <div class="left-box">
+            <h1 class="h1-text1">Deposit : <span id="total-Deposit">00</span> </h1>
+            <input class="amount_input" id="Deposit_input" type="text" placeholder="Enter Amount" >
+            <div class="dipo_btn">
+                <button class="add" id="add_money_btn">ADD Money</button>
+            </div>
+        </div>
+
+        <div class="right-box">
+            <h1 class="h1-text1">Withdraw : <span id="total_withdraw">00</span></h1>
+            <input class="amount_input" id="withdraw_input" type="text" placeholder="Enter Amount" >
+            <div class="dipo_btn">
+            <button class="add" id="withdraw-Btn">Withdraw</button>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
